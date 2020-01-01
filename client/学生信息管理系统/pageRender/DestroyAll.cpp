@@ -1,0 +1,63 @@
+//本程序需引用的头文件均在framework.h中
+#include "framework.h"
+//本程序窗口控件，句柄的ID，函数前向声明，全局变量声明均在resource.h中
+#include "resource.h"
+//注销页面所有控件的句柄
+void DestroyAll() {
+
+	DestroyWindow(hTitle);
+	DestroyWindow(hUsername);
+	DestroyWindow(hPassword);
+	DestroyWindow(hFooter);
+	DestroyWindow(hLogin);
+	DestroyWindow(hRegister);
+	DestroyWindow(hLoginText);
+	DestroyWindow(hPasswordText);
+	DestroyWindow(hSearch);
+	DestroyWindow(hResize);
+	DestroyWindow(hAdd);
+	DestroyWindow(hDelete);
+	DestroyWindow(hSearchUsername);
+	DestroyWindow(hSearchText);
+	DestroyWindow(hSearchButton);
+	DestroyWindow(hResizeUsername);
+	DestroyWindow(hResizeText);
+	DestroyWindow(hResizeButton);
+	DestroyWindow(hAddID);
+	DestroyWindow(hAddIDText);
+	DestroyWindow(hAddPassword);
+	DestroyWindow(hAddPasswordText);
+	DestroyWindow(hAddName);
+	DestroyWindow(hAddNameText);
+	DestroyWindow(hAddSex);
+	DestroyWindow(hAddSexText);
+	DestroyWindow(hAddMajor);
+	DestroyWindow(hAddMajorText);
+	DestroyWindow(hAddGrade);
+	DestroyWindow(hAddGradeText);
+	DestroyWindow(hAddAge);
+	DestroyWindow(hAddAgeText);
+	DestroyWindow(hAddButton);
+	DestroyWindow(hDeleteID);
+	DestroyWindow(hDeleteIDText);
+	DestroyWindow(hDeleteName);
+	DestroyWindow(hDeleteNameText);
+	DestroyWindow(hDeleteButton);
+	DestroyWindow(hResizeSettingName);
+	DestroyWindow(hResizeSettingSex);
+	DestroyWindow(hResizeSettingAge);
+	DestroyWindow(hResizeSettingMajor);
+	DestroyWindow(hResizeSettingGrade);
+	DestroyWindow(hResizeSettingMidTermScore);
+	DestroyWindow(hResizeSettingFinalTermScore);
+	DestroyWindow(hResizeNameText);
+	DestroyWindow(hResizeNameText);
+	DestroyWindow(hResizeSexText);
+	DestroyWindow(hResizeAgeText);
+	DestroyWindow(hResizeGradeText);
+	DestroyWindow(hResizeMidText);
+	DestroyWindow(hResizeFinalText);
+	DestroyWindow(hResizeMajorText);
+	DestroyWindow(hResizeSettingButton);
+	DestroyWindow(hReturn);
+}
