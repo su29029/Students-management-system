@@ -152,31 +152,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="preCompile\stdafx.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Add.cpp" />
-    <ClCompile Include="Base64Decode.cpp" />
-    <ClCompile Include="Base64Encode.cpp" />
-    <ClCompile Include="CheckUsrPwd.cpp" />
-    <ClCompile Include="Delete.cpp" />
-    <ClCompile Include="DestroyAll.cpp" />
-    <ClCompile Include="DisableMenu.cpp" />
-    <ClCompile Include="InitSocket.cpp" />
-    <ClCompile Include="ParseReceive.cpp" />
-    <ClCompile Include="Resize.cpp" />
-    <ClCompile Include="Search.cpp" />
-    <ClCompile Include="SetAddPage.cpp" />
-    <ClCompile Include="SetDeletePage.cpp" />
-    <ClCompile Include="SetLoginPage.cpp" />
-    <ClCompile Include="SetMainPage.cpp" />
-    <ClCompile Include="SetResizePage.cpp" />
-    <ClCompile Include="SetResizeSettingPage.cpp" />
-    <ClCompile Include="SetSearchPage.cpp" />
-    <ClCompile Include="var.cpp" />
+    <ClCompile Include="declaration\var.cpp" />
+    <ClCompile Include="pageRender\DestroyAll.cpp" />
+    <ClCompile Include="pageRender\DisableMenu.cpp" />
+    <ClCompile Include="pageRender\EnableMenu.cpp" />
+    <ClCompile Include="pageRender\SetAddPage.cpp" />
+    <ClCompile Include="pageRender\SetDeletePage.cpp" />
+    <ClCompile Include="pageRender\SetLoginPage.cpp" />
+    <ClCompile Include="pageRender\SetMainPage.cpp" />
+    <ClCompile Include="pageRender\SetResizePage.cpp" />
+    <ClCompile Include="pageRender\SetResizeSettingPage.cpp" />
+    <ClCompile Include="pageRender\SetSearchPage.cpp" />
+    <ClCompile Include="parse\Base64Decode.cpp" />
+    <ClCompile Include="parse\Base64Encode.cpp" />
+    <ClCompile Include="parse\ParseReceive.cpp" />
+    <ClCompile Include="preCompile\stdafx.cpp" />
+    <ClCompile Include="requestEncapsulate\Add.cpp" />
+    <ClCompile Include="requestEncapsulate\CheckUsrPwd.cpp" />
+    <ClCompile Include="requestEncapsulate\Delete.cpp" />
+    <ClCompile Include="requestEncapsulate\Resize.cpp" />
+    <ClCompile Include="requestEncapsulate\Search.cpp" />
+    <ClCompile Include="socket\InitSocket.cpp" />
     <ClCompile Include="学生信息管理系统.cpp" />
-    <ClCompile Include="EnableMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="学生信息管理系统.rc" />

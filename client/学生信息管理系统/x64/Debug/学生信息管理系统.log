@@ -1,0 +1,31 @@
+﻿  DestroyAll.cpp
+  DisableMenu.cpp
+  EnableMenu.cpp
+  SetAddPage.cpp
+  SetDeletePage.cpp
+  SetLoginPage.cpp
+  SetMainPage.cpp
+  SetResizePage.cpp
+  SetResizeSettingPage.cpp
+  SetSearchPage.cpp
+  Base64Decode.cpp
+  Base64Encode.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\parse\Base64Decode.cpp(28,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  ParseReceive.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\parse\Base64Encode.cpp(15,35): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Add.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\parse\ParseReceive.cpp(14,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  CheckUsrPwd.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\Add.cpp(38,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Delete.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\CheckUsrPwd.cpp(24,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Resize.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\Delete.cpp(22,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Search.cpp
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\Resize.cpp(42,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  InitSocket.cpp
+  学生信息管理系统.cpp
+  正在生成代码...
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\Search.cpp(21,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\乐乐\Desktop\management\client\学生信息管理系统\requestEncapsulate\Search.cpp(49): warning C4715: “Search”: 不是所有的控件路径都返回值
+  学生信息管理系统.vcxproj -> C:\Users\乐乐\Desktop\management\client\x64\Debug\学生信息管理系统.exe

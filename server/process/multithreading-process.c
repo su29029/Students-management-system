@@ -44,6 +44,7 @@ char* Analysis(char* receiveBuff){    //分析客户端传来的数据
             strcpy(returnStr,"username_not_found");
         }
         else if (strcmp(GetIndex(stu),"yes") == 0){
+            stu = Base64Encode(stu);
             return stu;  //查询出来的数据
         }
         else {
@@ -60,6 +61,7 @@ char* Analysis(char* receiveBuff){    //分析客户端传来的数据
         }
         else {
             strcpy(errStr,"error");
+            errStr = Base64Encode(errStr);
             return errStr;
         }        
     }
@@ -73,6 +75,7 @@ char* Analysis(char* receiveBuff){    //分析客户端传来的数据
         }
         else {
             strcpy(errStr,"error");
+            errStr = Base64Encode(errStr);
             return errStr;
         }
     }
@@ -87,12 +90,14 @@ char* Analysis(char* receiveBuff){    //分析客户端传来的数据
         }
         else {
             strcpy(errStr,"error");
+            errStr = Base64Encode(errStr);
             return errStr;
         }
     }
     else {  //错误命令或内存分配失败
         perror("invalid command or failed in malloc().\n");
         strcpy(errStr,"command_invalid_or_failed_in_malloc()");
+        errStr = Base64Encode(errStr);
         return errStr;
     }
     returnStr = Base64Encode(returnStr);

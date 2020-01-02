@@ -24,69 +24,75 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="preCompile\stdafx.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="学生信息管理系统.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="EnableMenu.cpp">
+    <ClCompile Include="parse\Base64Decode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DisableMenu.cpp">
+    <ClCompile Include="parse\Base64Encode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CheckUsrPwd.cpp">
+    <ClCompile Include="parse\ParseReceive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Search.cpp">
+    <ClCompile Include="preCompile\stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Resize.cpp">
+    <ClCompile Include="requestEncapsulate\Add.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Add.cpp">
+    <ClCompile Include="requestEncapsulate\CheckUsrPwd.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Delete.cpp">
+    <ClCompile Include="requestEncapsulate\Delete.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="InitSocket.cpp">
+    <ClCompile Include="requestEncapsulate\Resize.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetMainPage.cpp">
+    <ClCompile Include="requestEncapsulate\Search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetLoginPage.cpp">
+    <ClCompile Include="socket\InitSocket.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetSearchPage.cpp">
+    <ClCompile Include="declaration\var.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetResizePage.cpp">
+    <ClCompile Include="pageRender\DestroyAll.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetResizeSettingPage.cpp">
+    <ClCompile Include="pageRender\DisableMenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetAddPage.cpp">
+    <ClCompile Include="pageRender\EnableMenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetDeletePage.cpp">
+    <ClCompile Include="pageRender\SetAddPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DestroyAll.cpp">
+    <ClCompile Include="pageRender\SetDeletePage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ParseReceive.cpp">
+    <ClCompile Include="pageRender\SetLoginPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Base64Encode.cpp">
+    <ClCompile Include="pageRender\SetMainPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Base64Decode.cpp">
+    <ClCompile Include="pageRender\SetResizePage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="var.cpp">
+    <ClCompile Include="pageRender\SetResizeSettingPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pageRender\SetSearchPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
